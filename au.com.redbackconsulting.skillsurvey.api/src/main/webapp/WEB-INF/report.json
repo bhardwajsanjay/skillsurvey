@@ -1,0 +1,75 @@
+{
+  "userType": "admin",
+  "MenuItems": [
+    {
+      "label": "Home",
+      "key": "profileHome",
+      "isDefault": false,
+      "submenu": [
+        {
+          "label": "",
+          "key": "Home-Master",
+          "isDefault": true,
+          "submenu": []
+        }
+      ]
+    },
+    {
+      "label": "My Reports",
+      "key": "reporting",
+      "isDefault": false,
+      "submenu": [
+        {
+          "label": "Functional Reports",
+          "key": "reporting-FunctionalReports",
+          "isDefault": false,
+          "submenu": [
+            {
+              "label": "Report By APS Level",
+              "key": "FunctionalReports-RepByAPSLevel",
+              "isDefault": false,
+              "submenu": []
+            },
+            {
+              "label": "Report By Location",
+              "key": "FunctionalReports-RepByLocation",
+              "isDefault": false,
+              "submenu": []
+            },
+            {
+              "label": "Report By Learning Pathway",
+              "key": "FunctionalReports-RepByLearningPathway",
+              "isDefault": false,
+              "submenu": []
+            },
+            {
+              "label": "Report By UOC/Course",
+              "key": "FunctionalReports-RepByUOCCourse",
+              "isDefault": false,
+              "submenu": []
+            }
+          ]
+        },
+        {
+          "label": "Oranizational Reports",
+          "key": "reporting-OrganizationalReports",
+          "isDefault": true,
+          "submenu": [
+            {
+              "label": "Report By Function",
+              "key": "OrganizationalReports-RepByAPSLevel",
+              "isDefault": false,
+              "submenu": []
+            }, 
+            {
+              "label": "Export Report",
+              "key": "ExportReport-ExportReport",
+              "isDefault": false,
+              "submenu": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

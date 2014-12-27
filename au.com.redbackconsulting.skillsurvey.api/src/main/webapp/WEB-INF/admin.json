@@ -1,0 +1,31 @@
+{
+  "userType": "admin",
+  "MenuItems": [
+    {
+      "label": "Home",
+      "key": "profileHome",
+      "isDefault": false,
+      "submenu": [
+        {
+          "label": "",
+          "key": "Home-Master",
+          "isDefault": true,
+          "submenu": []
+        }
+                 ]
+    },
+    {
+      "label": "User Administration",
+      "key": "usermanagement",
+      "isDefault": false,
+      "submenu": [
+        {
+          "label": "",
+          "key": "usermanagement-UserManagement",
+          "isDefault": true,
+          "submenu": []
+        }
+     		 ]
+    }
+]
+}

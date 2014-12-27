@@ -1,0 +1,802 @@
+/*shell styles*/
+
+.sapUiUx3ShellHeader{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    right: 0px;
+    z-index: 4;
+    background-color: #FFFFFF;
+}
+
+.sapUiUx3ShellHeadStandard > .sapUiUx3ShellCanvas {
+top: 85px;
+background-color: #FFFFFF;
+}
+
+
+.callout {
+color:#CF4520;
+}
+
+
+
+/* button styles*/
+
+.sapUiBtnStd.sapUiBtnS:hover, .sapUiBtnStdHover.sapUiBtnStd.sapUiBtnS {
+	/*color:#000000 !Important;*/
+        background-color: #CF4520 !Important; 
+	/*background-color: #007cc0;*/
+}
+
+.sapUiBtnStd.sapUiBtnNorm.sapUiBtnS {
+   background-color: #CF4520;
+   color:#FFFFFF !Important;
+  /*background-color: #f7f7f7;*/
+}
+
+
+#__confirm0--btn-OK,  #__confirm1--btn-OK {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size:14px;
+    padding: 0px;
+    height: 30px;
+    min-width: 80px;
+    outline: none;
+    border-radius: 10px !important;
+    /*border-radius: 10px 10px 10px 10px;*/
+    text-shadow: -1px -1px 0 #0061a1;
+    margin-right: 50px;
+}
+
+#__confirm0--btn-CANCEL, #__confirm1--btn-CANCEL {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size:14px;
+    padding: 0px;
+    height: 30px;
+    min-width: 80px;
+    outline: none;
+    border-radius: 10px !important;
+    /*border-radius: 10px 10px 10px 10px;*/
+    text-shadow: -1px -1px 0 #0061a1;
+    margin-right: 50px;
+}
+ 
+
+.sapUiBtnS.sapUiBtnNorm.sapUiBtnStd:hover, .sapUiBtnS.sapUiBtnNorm.sapUiBtnStd.sapUiBtnStdHover {
+border-color: #000000;
+}
+/* next and previous, save, message box buttons*/
+.sapUiBtnS {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    height: 40px;
+    min-width: 100px;
+    outline: none;
+    border-radius: 30px !important;
+    /*border-radius: 10px 10px 10px 10px;*/
+    text-shadow: -1px -1px 0 #0061a1;
+}
+
+.save-continue-btn{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    padding: 20px
+    /*height: 50px;*/
+    outline: none;
+    float: right;
+    margin: 20px;
+}
+
+.exit-continue-btn{
+    float: right;
+    margin: 20px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    padding: 20px
+    /*height: 50px;*/
+    outline: none;
+}
+
+.bluebtn {
+background: url('images/bluebtn-with-hover.png') repeat-x scroll 0 -14px transparent;
+text-align: center;
+display: inline-block;
+border-radius: 10px 10px 10px 10px;
+color: #FFF;
+font-size: 14px;
+min-width: 80px;
+font-weight: 700;
+text-shadow: -1px -1px 0 #0061a1;
+text-decoration: none;
+height: 22px;
+padding: 4px 15px!important;
+font-size: 14px!important;
+}
+
+
+/* quick view styles*/
+
+.sapUiUx3QVHeading {
+white-space: normal !important;
+overflow: hidden;
+text-overflow: ellipsis;
+position: relative;
+min-height: 32px;
+margin-bottom: 12px;
+padding: 20px;
+}
+
+.sapUiUx3QV {
+font-family: Arial,Helvetica,sans-serif;
+font-size: 12px;
+background: #ffffff;
+border: none;
+}
+.sapUiUx3QV {
+padding: 10px;
+width: 500px;
+color: #000000;
+background-color: #f2f2f2;
+border-width: 1px;
+border-style: solid;
+border-color: #cccccc;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+}
+
+/* progress bar*/
+
+.sapUiProgIndFont {
+    font-family: Arial,Helvetica,sans-serif;
+    display: inline-block;
+    position: absolute;
+    padding-left: 5px;
+    vertical-align: center;
+    font-size: 16px;
+    white-space: nowrap;
+    color: #CF4520;
+}
+
+
+
+/*-->Sumi: Added: to fix the rendering of the logout button on header<--*/
+.sapUiUx3ShellHeaderButton {
+    display: inline-block;
+    height: 36px;
+}
+
+
+/*-->Duplicate as per below: have commented out for now<--*/
+.sapUiUx3ShellHeaderSep {
+    margin: 10px 0 0;
+    height: 32px;
+}
+*/
+
+/*-->Sumi: Added: to fix the rendering of the logout button on header: Changed height: and display: inline removes the separator bars  but fixes it: inline-block will place separators back but will break it<--*/
+.sapUiUx3ShellHeaderSep {
+    display: inline;
+    vertical-align: middle;
+    height: 32px;
+    width: 2px;
+    background-color: #999999;
+    margin: 4px 6px 0 6px;
+}
+
+
+#surveyAppShell-hdrLine {
+    background-color: #CF4520;
+    height: 10px;
+    position: absolute;
+    top: 0px;
+ }
+
+.sapUiUx3ShellHeader .sapUiBtn:active, .sapUiUx3ShellHeader .sapUiLnk:active {
+    background-color: #CF4520;
+}
+
+.sapUiUx3ShellHeader .sapUiBtn:hover, .sapUiUx3ShellHeader .sapUiLnk:hover {
+background-color: #CF4520 !important;
+text-decoration: underline;
+/*color: #ffffff;*/
+}
+
+
+#surveyAppShell-logoImg {
+position: absolute;
+top:25px;
+left: 50px;
+max-width: 350px;
+max-height:100px;
+z-index: 4;
+}
+
+.sapUiUx3ShellHeader {
+    color: #666666;
+    background-color: #ffffff;
+    background-image: none;
+    padding: 9px 5px 0;
+    height: 40px;
+}
+
+.sapUiUx3ShellHeader .sapUiBtn, .sapUiUx3ShellHeader .sapUiLnk {
+    cursor: pointer;
+    border: none;
+    background-color:transparent;
+    display: inline-block;
+    height: 40px;
+    font-size: 16px;
+    vertical-align: top;
+    font-family: Arial,Helvetica,sans-serif;
+    padding:0px 10px;
+    text-decoration: none;
+    color: #666666;
+}
+
+.sapUiUx3ShellHeader > .sapUiUx3ShellHeaderTitleRight > .sapUiTv {
+    padding: 0 10px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+.sapUiUx3ShellHeader>h1 {
+display: inline-block;
+position: absolute;
+left: 600px;
+top: 70px;
+-moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+font-size: 26px;
+font-style: italic;
+font-family: Georgia, Arial,Helvetica,sans-serif;
+}
+
+/* Places the menus */
+
+#surveyAppShell-wBar{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    z-index: 5;
+    margin: 80px 0px 0px 0px;
+    height: 50px;
+}
+
+#surveyAppShell-facetBar{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    z-index: 5;
+    margin: 45px 0px 0px 0px;
+    height: 40px;
+}
+
+/* Main Menu*/
+/* using id not classes*/
+
+#myreport-menu, #mysurvey-menu, #instructions-menu, #profileHome-menu {
+    color: #CF4520;
+    font-size: 20px;
+    font-family: Georgia, Arial,Helvetica,sans-serif;
+}
+
+.sapUiUx3NavBarToplevel .sapUiUx3NavBarItem:focus {
+    outline: 1px dashed #000000;
+    font-size: 20px;
+    font-family: Georgia, Arial,Helvetica,sans-serif;
+    outline-offset: 2px;
+}
+
+.sapUiUx3NavBarToplevel > .sapUiUx3NavBarList {
+  	height: 30px;
+	font-size: 20px;
+	padding: 0px;
+}
+
+/* once selected */
+.sapUiUx3NavBarToplevel .sapUiUx3NavBarItemSel > a {
+    font-size: 20px;
+}
+
+/*  Standard style
+.sapUiUx3NavBarToplevel .sapUiUx3NavBarList > li, .sapUiUx3NavBarToplevel .sapUiUx3NavBarItem {
+    color: #CF4520;
+    font-size: 20px;
+    font-family: Georgia, Arial,Helvetica,sans-serif;
+}*/
+
+/* arrow*/
+
+.sapUiUx3Shell .sapUiUx3NavBarToplevel .sapUiUx3NavBarArrow {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    margin-top: 0px;
+    background: #000000;
+    top: 43px;
+    border-color: transparent;
+    clip: rect(-8px, 14px, 14px, -8px);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+/*spacing on second line of menu bar*/
+.sapUiUx3ShellCanvas .sapUiUx3NavBar .sapUiUx3NavBarList > li > a {
+    padding: 0 70px 0 70px;
+}
+
+#mysurvey-SurveyOverview-subMenu,#mysurvey-Mandatory-subMenu, #mysurvey-Supervisor-subMenu, #mysurvey-HighlyDesirable-subMenu, #mysurvey-Desirable-subMenu, 
+#myreport-Report-subMenu {
+    display: inline;
+    margin: 0 5px;
+    cursor: pointer;
+    font-family: Georgia, Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+/*std style
+.sapUiUx3NavBarItem {
+    display: inline;
+    margin: 0 5px;
+    cursor: pointer;
+    font-family: Georgia, Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    padding: 3px 9px 7px;
+    text-transform: capitalize;
+}*/
+
+.sapUiUx3NavBarItem:focus {
+   outline: 1px dashed #005483;
+   font-size: 20px;
+}
+
+.sapUiUx3NavBarItemSel > a {
+    color: #333333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* Main Menu end*/
+
+.sapUiUx3ShellToolPaletteArea{
+    background-color: #5B6770;
+    top: 0px;
+    padding-top: 100px;
+}
+
+.sapUiUx3ShellPaneBarRight{
+    background-color: #5B6770;
+    top: 0px;
+    padding-top: 100px;
+}
+
+
+#surveyAppShell-content {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 5;
+    margin: 60px 0px 0px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: auto;
+    background-color: #FFFFFF;
+    height: auto;
+}
+
+
+.sapMGlobalBackgroundColor {
+ background-color: #FFFFFF;
+ }
+
+.sapMNavItem, .sapMPage.sapMNavItem {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    height: 100%;
+    -webkit-transition-property: -webkit-transform;
+}
+
+.sapUiUx3NavBarItem {
+display: inline;
+margin: 0 5px;
+cursor: pointer;
+font-family: Georgia, Arial,Helvetica,sans-serif;
+font-size: 14px;
+padding: 3px 9px 7px;
+/*color: #000000;
+text-decoration: none;
+-moz-transition-property: color,font-size,padding;
+-moz-transition-duration: 0.3s;
+-ms-transition-property: color,font-size,padding;
+-ms-transition-duration: 0.3s;
+-webkit-transition-property: color,font-size,padding;
+-webkit-transition-duration: 0.3s;
+transition-property: color,font-size,padding;
+transition-duration: 0.3s;*/
+text-transform: capitalize;
+}
+
+/*home page styles*/
+
+.homeLeftPane {
+ background-color: #FFFFFF;
+}
+
+.homeRightPane {
+ background-color: #FFFFFF;
+}
+
+.homeFirstContentHeader{
+font-size: 24px;
+color: #CF4520;
+font-family: Georgia, Arial,Helvetica,sans-serif;
+padding-top: 20px;
+padding-bottom: 25px;
+padding-right: 0px;
+padding-left: 0px;
+}
+
+.homeFirstContent {
+font-size: 18px;
+font-family: Georgia, Arial,Helvetica,sans-serif;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-right: 0px;
+padding-left: 0px;
+}
+
+.homeBottomContentBanner {
+margin: 80px 0px 0px 0px;
+height: 80px;
+}
+
+.homeBottomContent {
+background-color: #CF4520;
+font-size: 16px ;
+font-family: Arial,Helvetica,sans-serif;
+color: #FFFFFF;
+padding-top: 10px;
+padding-bottom: 5px;
+padding-right: 40px;
+padding-left: 40px;
+border-radius: 50px !important;
+}
+
+
+/*src : "config/images/icons/person.png"*/
+
+
+/*my surveys styles*/
+
+.sapUiLbl {
+font-family: Arial,Helvetica,sans-serif;
+font-size: 16px !important;
+font-weight: normal;
+color: #444444 !important;
+}
+
+.sapUiLbl:hover {
+    background-color:#FFFFFF !important;
+}
+
+.sapUiTableCol{
+    color: #444444 !important;
+}
+
+.sapUiTableCol:hover {
+    background-color:#FFFFFF !important;
+}
+
+.surveyPathwayHeaderTextStyle_z {
+font-family: Arial,Helvetica,sans-serif;
+font-size: 16px !important;
+font-weight:normal !important;
+}
+
+.sapUiTv {
+font-family: Arial,Helvetica,sans-serif;
+font-size: 16px !important;
+}
+
+.sapUiTvAlignLeft{
+font-family: Arial,Helvetica,sans-serif;
+font-size: 16px !important;
+}
+
+/*padding added 21/9/14*/
+.sapUiTableCell{
+font-family: Arial,Helvetica,sans-serif;
+font-size: 16px !important;
+font-weight:normal !important;
+padding:5px;
+}
+
+/*gets rid of blue hover*/
+
+.sapUiTableRowHvr{
+   background-color: #FFFFFF !Important;
+color:#444444 !Important;
+}
+
+.sapUiTableColRowHdr:hover {
+   background-color: #FFFFFF !Important;
+color:#444444 !Important;
+}
+
+/* removed resize 0px */
+.sapUiTableColRsz {
+position: absolute;
+top: 0;
+width: 0px;
+bottom: 0;
+cursor: col-resize;
+z-index: 1;
+}
+
+/*profile page*/
+
+.sapUiGrid > tbody > tr:first-child > td > .sapUiFormTitle, [aria-describedby].sapUiForm > .sapUiGrid > tbody > tr:nth-child(2) > td > .sapUiFormTitle {
+    font-family: Georgia, Arial,Helvetica,sans-serif;
+    }
+/*text in drop downs on profile page*/
+
+.sapUiTf {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+}
+/*labels on profile page*/
+
+.sapUiGridLabel > .sapUiLbl {
+    float: right;
+    font-align: middle;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+   
+}
+
+.sapUiTfRo {
+    border-color: transparent;
+height: 30px;
+}
+
+.sapUiTfBrd {
+    height: 30px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-width: 2px;
+}
+
+.sapUiLbxITxt {
+    font-size: 15px;
+}
+
+.sapUiLbxI > span {
+   padding: 3px;
+}
+
+.sapUiTv {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+}
+
+.sapUiGrid > tbody > tr > td > .sapUiFormTitle {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    background:#5B6770;
+    border-top-right-radius: 2em;
+    font-family: Georgia, Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff !important;
+}
+
+.userProfileMatrix {
+    font-family: Georgia, Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #444444;
+}
+
+.sapUiFormTitle {
+    font-family: Georgia, Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+sapUiFormTitleH2{
+    font-family: Georgia, Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* profile page end*/
+
+.sapUiTableCell {
+    white-space: normal !important;
+}
+
+.sapUiTableRowHdr {
+    padding-top: 2px;
+    padding-bottom: 1px;
+    font-family: Georgia, Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #444444;
+}
+
+.sapUiTableTr > td {
+    padding-top: 2px;
+    padding-bottom: 1px;
+    font-family: Georgia, Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #444444;
+}
+
+
+
+
+.sapUiProgIndBar {
+    position: relative;
+    background-color:#C1C6C8;
+    color: #666666;
+    border-radius: 2px;
+    -moz-border-radius: 3px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 35px;
+    -moz-user-select: none;
+    user-select: none;
+    font-family: Georgia, Arial,Helvetica,sans-serif;
+}
+.navBar{
+padding-left: 0px;
+padding-right: 0px;
+position: fixed;
+left: 15%;
+right: 0%;
+top: 95%;
+bottom: 0px;
+visibility: visible;
+z-index: 2 !important;
+display: block;
+width:10%;
+height:100px;
+}
+
+/*notification bar width*/
+.footerBar{
+position: fixed;
+left: 0px;
+right: 0px;
+top: 96%;
+bottom: 0px;
+visibility: visible;
+z-index: 3;
+display: none;
+/*width:150px !important;*/
+background-color:#5B6770;
+width:100% !important;
+height:40px;
+}
+
+
+/*sap notification bar (in footer bar)*/
+
+.sapUiNotiHover {
+position: absolute;
+height: 40px;
+}
+
+.sapUiNotifiers {
+padding: 0;
+margin: 0;
+height: inherit;
+}
+
+.sapUiNotificationBar {
+font-family: Arial,Helvetica,sans-serif;
+font-size: 20px;
+border-radius: 0;
+border-top: 1px solid #666666;
+}
+
+.sapUiNotificationBar {
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+height: 40px !important;
+width: 100% !important;
+/*background-color: rgba(51,51,51,0.98);*/
+background-color:#CF4520;
+box-shadow: none;
+padding: 0 15px 0 6px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+outline: none;
+}
+
+.sapUiNotifierMessageText {
+color: #ffffff;
+background: transparent;
+text-overflow: ellipsis;
+max-height: 100px;
+overflow: hidden;
+}
+
+.sapUiNotifier img {
+position: relative;
+top: 10px;
+left: 8px;
+opacity: 0.75;
+}
+
+
+.sapUiTablePaginator {
+text-align: center;
+font-size: 20px !important;
+padding: 2px;
+z-index: 4 !important;
+}
+
+ .sapUiTbContLeft.sapUiTbCont {
+padding: 3px;
+height: 50px;
+}
+.sapUiTb.sapUiTbStandalone {
+height: 50px;
+}
+.rdb-sbar-container{
+	background-color:#e5e5e5;
+}
+.rdb-pbar-container{
+	color:white;
+	background-color:grey;
+	border:1px solid;
+	z-index:20!important;
+	position:absolute;
+	width:350px;
+	height:100px;
+	top:35%;
+	left:40%;
+	display:none;
+	text-align: center;
+	vertical-align: middle;
+	padding-top:3%;
+}
+.rdb-pbar{
+	border:1px blue solid;height:20px;width:160px;
+}
